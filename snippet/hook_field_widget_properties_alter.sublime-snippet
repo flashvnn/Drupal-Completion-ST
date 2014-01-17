@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_field_widget_properties_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_field_widget_properties_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_widget_properties_alter(&\$widget, \$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

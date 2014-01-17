@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_menu_get_item_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_menu_get_item_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_menu_get_item_alter(&\$router_item, \$path, \$original_map) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

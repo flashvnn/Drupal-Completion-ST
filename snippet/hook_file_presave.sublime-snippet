@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_file_presave</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_file_presave().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_file_presave(\$file) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

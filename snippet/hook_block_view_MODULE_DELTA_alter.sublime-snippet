@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_block_view_${1:MODULE}_${3:DELTA}_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_block_view_${1:MODULE}_${3:DELTA}_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_block_view_${2:MODULE}_${4:DELTA}_alter(&\$data, \$block) {
+  ${5:/* Your code here */}
+}
+]]></content>
+</snippet>

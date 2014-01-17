@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_ctools_plugin_type</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_ctools_plugin_type().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ctools_plugin_type() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

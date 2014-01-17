@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_ctools_cleanstring_CLEA${1:N}_ID_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_ctools_cleanstring_CLEA${1:N}_ID_alter().
+ */
+function ${TM_FILE${2:N}AME/([^.]*)\..*$/$1/}_ctools_cleanstring_CLEA${2:N}_ID_alter(&\$settings) {
+  ${3:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_process_${1:HOOK}</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_process_${1:HOOK}().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_process_${2:HOOK}(&\$variables) {
+  ${3:/* Your code here */}
+}
+]]></content>
+</snippet>

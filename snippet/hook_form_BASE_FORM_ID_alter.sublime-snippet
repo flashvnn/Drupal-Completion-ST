@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_form_BASE_${1:FORM_ID}_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_form_BASE_${1:FORM_ID}_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_form_BASE_${2:FORM_ID}_alter(&\$form, &\$form_state, \$form_id) {
+  ${3:/* Your code here */}
+}
+]]></content>
+</snippet>

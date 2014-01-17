@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_field_widget_properties_E${1:N}TITY_TYPE_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_field_widget_properties_E${1:N}TITY_TYPE_alter().
+ */
+function ${TM_FILE${2:N}AME/([^.]*)\..*$/$1/}_field_widget_properties_E${2:N}TITY_TYPE_alter(&\$widget, \$context) {
+  ${3:/* Your code here */}
+}
+]]></content>
+</snippet>

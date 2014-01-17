@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_entity_views_field_handlers_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_entity_views_field_handlers_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_views_field_handlers_alter(array &\$field_handlers) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

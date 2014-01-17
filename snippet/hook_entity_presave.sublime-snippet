@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_entity_presave</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_entity_presave().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_presave(\$entity, \$type) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <tabTrigger>hook_update_${1:N}</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_update_${1:N}().
+ */
+function ${TM_FILE${2:N}AME/([^.]*)\..*$/$1/}_update_${2:N}(&\$sandbox) {
+  $ret = array();
+	  ${3:/* Your code here */}
+	  return $ret
+}
+]]></content>
+</snippet>

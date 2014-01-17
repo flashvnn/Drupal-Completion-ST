@@ -1,0 +1,11 @@
+<snippet>
+  <tabTrigger>hook_ctools_plugin_pre_alter</tabTrigger>
+  <content><![CDATA[
+/**
+ * Implementation of hook_ctools_plugin_pre_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ctools_plugin_pre_alter(&\$plugin, &\$info) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>
